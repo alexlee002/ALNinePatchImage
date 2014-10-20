@@ -3,9 +3,8 @@
 An UIImage category, supports 9-patch resizable image for iOS.
 
 ##Example##
-<div style="float:left">screen-shot 1<img src="screen-shot-1.png"></div>
+<div style="float:left"><div><img src="screen-shot-1.png"></div><div><img src="screen-shot-2.png"></div></div>
 
-<div style="float:left">screen-shot 2<img src="screen-shot-2.png"></div>
 
 ##What's 9-patch image##
 
