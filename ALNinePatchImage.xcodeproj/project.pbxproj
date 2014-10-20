@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		3C1E309E19CB44FF002C98BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1E309D19CB44FF002C98BC /* main.m */; };
 		3C1E30A119CB44FF002C98BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1E30A019CB44FF002C98BC /* AppDelegate.m */; };
-		3C1E30A419CB44FF002C98BC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1E30A319CB44FF002C98BC /* ViewController.m */; };
-		3C1E30A719CB44FF002C98BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C1E30A519CB44FF002C98BC /* Main.storyboard */; };
 		3C1E30A919CB44FF002C98BC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C1E30A819CB44FF002C98BC /* Images.xcassets */; };
 		3C1E30AC19CB44FF002C98BC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C1E30AA19CB44FF002C98BC /* LaunchScreen.xib */; };
 		3C1E30B819CB44FF002C98BC /* ALNinePatchImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1E30B719CB44FF002C98BC /* ALNinePatchImageTests.m */; };
+		3C1E30C319CB498F002C98BC /* UIImage+NinePatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1E30C219CB498E002C98BC /* UIImage+NinePatch.m */; };
+		3CFE8AF919D0167100FFA7AC /* ALTestingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFE8AF819D0167100FFA7AC /* ALTestingViewController.m */; };
+		3CFE8AFC19D01AC600FFA7AC /* bar_bg.9.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE8AFA19D01AC600FFA7AC /* bar_bg.9.png */; };
+		3CFE8AFD19D01AC600FFA7AC /* popup_bg.9@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CFE8AFB19D01AC600FFA7AC /* popup_bg.9@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +34,17 @@
 		3C1E309D19CB44FF002C98BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3C1E309F19CB44FF002C98BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3C1E30A019CB44FF002C98BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3C1E30A219CB44FF002C98BC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3C1E30A319CB44FF002C98BC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		3C1E30A619CB44FF002C98BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3C1E30A819CB44FF002C98BC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3C1E30AB19CB44FF002C98BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		3C1E30B119CB44FF002C98BC /* ALNinePatchImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ALNinePatchImageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C1E30B619CB44FF002C98BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C1E30B719CB44FF002C98BC /* ALNinePatchImageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALNinePatchImageTests.m; sourceTree = "<group>"; };
+		3C1E30C119CB498E002C98BC /* UIImage+NinePatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+NinePatch.h"; sourceTree = "<group>"; };
+		3C1E30C219CB498E002C98BC /* UIImage+NinePatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+NinePatch.m"; sourceTree = "<group>"; };
+		3CFE8AF719D0167100FFA7AC /* ALTestingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALTestingViewController.h; sourceTree = "<group>"; };
+		3CFE8AF819D0167100FFA7AC /* ALTestingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALTestingViewController.m; sourceTree = "<group>"; };
+		3CFE8AFA19D01AC600FFA7AC /* bar_bg.9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar_bg.9.png; sourceTree = "<group>"; };
+		3CFE8AFB19D01AC600FFA7AC /* popup_bg.9@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popup_bg.9@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,14 +86,17 @@
 		3C1E309A19CB44FF002C98BC /* ALNinePatchImage */ = {
 			isa = PBXGroup;
 			children = (
+				3CFE8AFA19D01AC600FFA7AC /* bar_bg.9.png */,
+				3CFE8AFB19D01AC600FFA7AC /* popup_bg.9@2x.png */,
 				3C1E309F19CB44FF002C98BC /* AppDelegate.h */,
 				3C1E30A019CB44FF002C98BC /* AppDelegate.m */,
-				3C1E30A219CB44FF002C98BC /* ViewController.h */,
-				3C1E30A319CB44FF002C98BC /* ViewController.m */,
-				3C1E30A519CB44FF002C98BC /* Main.storyboard */,
+				3CFE8AF719D0167100FFA7AC /* ALTestingViewController.h */,
+				3CFE8AF819D0167100FFA7AC /* ALTestingViewController.m */,
 				3C1E30A819CB44FF002C98BC /* Images.xcassets */,
 				3C1E30AA19CB44FF002C98BC /* LaunchScreen.xib */,
 				3C1E309B19CB44FF002C98BC /* Supporting Files */,
+				3C1E30C119CB498E002C98BC /* UIImage+NinePatch.h */,
+				3C1E30C219CB498E002C98BC /* UIImage+NinePatch.m */,
 			);
 			path = ALNinePatchImage;
 			sourceTree = "<group>";
@@ -199,9 +207,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C1E30A719CB44FF002C98BC /* Main.storyboard in Resources */,
 				3C1E30AC19CB44FF002C98BC /* LaunchScreen.xib in Resources */,
+				3CFE8AFD19D01AC600FFA7AC /* popup_bg.9@2x.png in Resources */,
 				3C1E30A919CB44FF002C98BC /* Images.xcassets in Resources */,
+				3CFE8AFC19D01AC600FFA7AC /* bar_bg.9.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +228,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C1E30A419CB44FF002C98BC /* ViewController.m in Sources */,
 				3C1E30A119CB44FF002C98BC /* AppDelegate.m in Sources */,
 				3C1E309E19CB44FF002C98BC /* main.m in Sources */,
+				3CFE8AF919D0167100FFA7AC /* ALTestingViewController.m in Sources */,
+				3C1E30C319CB498F002C98BC /* UIImage+NinePatch.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +254,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3C1E30A519CB44FF002C98BC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3C1E30A619CB44FF002C98BC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3C1E30AA19CB44FF002C98BC /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -346,6 +348,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ALNinePatchImage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -356,6 +359,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ALNinePatchImage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -414,6 +418,7 @@
 				3C1E30BD19CB44FF002C98BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C1E30BE19CB44FF002C98BC /* Build configuration list for PBXNativeTarget "ALNinePatchImageTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +427,7 @@
 				3C1E30C019CB44FF002C98BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

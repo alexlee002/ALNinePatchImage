@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ALTestingViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,24 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+//    NSString *path = NSHomeDirectory();//主目录
+//    NSLog(@"NSHomeDirectory:%@",path);
+//    NSString *userName = NSUserName();//与上面相同
+//    NSString *rootPath = NSHomeDirectoryForUser(userName);
+//    NSLog(@"NSHomeDirectoryForUser:%@",rootPath);
+//    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+//    NSString *documentsDirectory=[paths objectAtIndex:0];//Documents目录
+//    NSLog(@"NSDocumentDirectory:%@",documentsDirectory);
+//    
+//    NSLog(@"main bundle:%@", [NSBundle mainBundle].bundlePath);
+//    NSLog(@"main bundle resource path:%@", [NSBundle mainBundle].resourcePath);
+//    NSLog(@"en bundle:%@", [NSBundle bundleWithPath:[[NSBundle mainBundle] pathForResource:@"en" ofType:@"lproj"]].bundlePath);
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.rootViewController = [[ALTestingViewController alloc]init];
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+        
     return YES;
 }
 
