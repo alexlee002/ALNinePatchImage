@@ -17,3 +17,19 @@ This is the 9 patch description for Android. most the same as `ALNinePatchImage`
 
 **NOTE**: the black line always 1px width for top line and 1px width for left line, no matter what scale the image is.  And the 1px border is the extra data, not including in the size of the real image that would be shown in your UI.
 
+##How to install##
+
+###Using cocoapods###
+```
+  pod 'ALNinePatchImage',          '~> 0.1'
+```
+
+###Or copy the following files to your project###
+
+```
+UIImage+NinePatch.h
+UIImage+NinePatch.m
+```
+  
+
+
